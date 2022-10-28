@@ -1,0 +1,11 @@
+class Order
+{
+
+    public:
+    std::string orderID;
+    std::string orderInstrumentCode;
+    std::string orderOwner;
+    int orderQuantity;
+    double orderPrice;
+    std::string buyOrSell;
+};
